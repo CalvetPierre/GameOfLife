@@ -1,0 +1,18 @@
+
+              TP4. Jeu de la vie
+
+Le "jeu de la vie" se déroule sur un tableau de cases occupées par des cellules,
+qui évolue au cours du temps : à chaque itération, un nouveau tableau est
+calculé selon des règles très simples. La notion de voisinage utilisée est le
+8-voisinage.
+- une cellule qui a 4 voisins ou plus meurt d'étouffement,
+- une cellule qui a 1 ou 0 voisin meurt d'isolement,
+- une case vide qui a exactement 3 cellules voisines voit la naissance d'une
+nouvelle cellule.
+Voir : http://fr.wikipedia.org/wiki/Jeu_de_la_vie
+
+Récupérez le programme source [gvie.c et gvie_cycle.c].
+Lisez et comprenez le code.
+
+Parallélisez le code de gvie_cycle, vérifiez qu'il fonctionne.
+Faites des mesures de performance sur différentes machines.
